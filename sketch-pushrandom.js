@@ -57,7 +57,7 @@ if (level > .05) {
     highvol[i].update();
     highvol[i].display();
       
-      if (highvol.length > 25) {
+      if (highvol.length > 5) {
       highvol.splice(0,1);
     }
    
